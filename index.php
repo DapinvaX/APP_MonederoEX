@@ -90,7 +90,7 @@ require_once __DIR__.'/DAO/MonederoDAO.php';
 
            $html = '
 
-           <form action="modificar.php" method="POST">
+           <form action="editarDatoRegistroPDO.php" method="POST">
 
             <tr>
 
@@ -120,7 +120,7 @@ require_once __DIR__.'/DAO/MonederoDAO.php';
 
            <td> <a href="index2.php?id='.$concepto["id"].'" class="w3-btn w3-khaki">Editar</a></td>
 
-           <td> <a href="eliminarRegistro.php?id='.$concepto["id"].'" class="w3-btn w3-red">Eliminar</a></td>
+           <td> <a href="eliminarDatoRegistroPDO.php?id='.$concepto["id"].'" class="w3-btn w3-red">Eliminar</a></td>
 
          </tr>';
 
@@ -152,7 +152,7 @@ require_once __DIR__.'/DAO/MonederoDAO.php';
 
    <tr>
 
-     <form action="insertarRegistroPDO.php" method="POST">
+     <form action="insertarDatoRegistroPDO.php" method="POST">
 
      <td><input class="w3-input w3-border" type="text" name="concepto" placeholder="Concepto"></td>
 
@@ -202,9 +202,9 @@ require_once __DIR__.'/DAO/MonederoDAO.php';
 
     <div class="w3-container w3-border w3-large">
 
-     <div class="w3-left-align"><p>El número de registro es 14.</p></div>
+    <!-- <div class="w3-left-align"><p>El número de registro es 14.</p></div> -->
 
-     <div class="w3-left-align"><p>El balance del monedero es 569 €.</p></div>
+    <!-- <div class="w3-left-align"><p>El balance del monedero es 569 €.</p></div> -->
 
    </div>
 
