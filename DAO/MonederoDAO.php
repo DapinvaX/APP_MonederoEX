@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 
 
 
-require '../DTO/RegistroDTO.php';
+require __DIR__.'/../DTO/RegistroDTO.php';
 
 
 
