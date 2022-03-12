@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 
 
 
-require __DIR__.'/../DTO/RegistroDTO.php';
+require '../DTO/RegistroDTO.php';
 
 
 
@@ -71,7 +71,7 @@ class MonederoDAO{
        try {
 
 
-           require_once __DIR__.'/../CONEXION/conexionPDO.php';
+           require_once './CONEXION/conexionPDO.php';
 
 
            $fecha = strtotime($registroDTO->getFecha());   
@@ -123,7 +123,7 @@ class MonederoDAO{
 
     try {
 
-      require ('./configuracion/conexionBD.php');
+      require ('./CONEXION/conexionPDO.php');
 
       $sql = "DELETE FROM monedero WHERE id=".$id;
 
