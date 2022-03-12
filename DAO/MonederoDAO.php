@@ -48,7 +48,7 @@ class MonederoDAO{
 
       require ('./CONEXION/conexionPDO.php');     
 
-      $sql = "SELECT * FROM monedero WHERE id=".$id;
+      $sql = "SELECT id, concepto, fecha, importe FROM monedero WHERE id=".$id;
 
       $conexion->query($sql);
 

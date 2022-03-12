@@ -152,7 +152,7 @@ require_once __DIR__.'/DAO/MonederoDAO.php';
 
    <tr>
 
-     <form action="insertarRegistro.php" method="POST">
+     <form action="insertarRegistroPDO.php" method="POST">
 
      <td><input class="w3-input w3-border" type="text" name="concepto" placeholder="Concepto"></td>
 
