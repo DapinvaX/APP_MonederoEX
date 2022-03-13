@@ -90,7 +90,7 @@ require_once __DIR__.'/DAO/MonederoDAO.php';
 
            $html = '
 
-           <form action="editarDatoRegistroPDO.php" method="POST">
+           <form action="modificarDatoRegistroPDO.php" method="POST">
 
             <tr>
 
@@ -100,7 +100,7 @@ require_once __DIR__.'/DAO/MonederoDAO.php';
 
            <td><input class="w3-input w3-border" type="text" name="importe" value="'.$concepto["importe"].'"></td>
 
-           <td>  <input type="submit" class="w3-btn w3-green" value="Grabar"></td>
+           <td>  <input type="submit" class="w3-btn w3-green" value="Guardar"></td>
 
            <td> </td>
 
@@ -118,7 +118,7 @@ require_once __DIR__.'/DAO/MonederoDAO.php';
 
            <td>'.$concepto["importe"].'</td>
 
-           <td> <a href="index2.php?id='.$concepto["id"].'" class="w3-btn w3-khaki">Editar</a></td>
+           <td> <a href="index.php?id='.$concepto["id"].'" class="w3-btn w3-khaki">Editar</a></td>
 
            <td> <a href="eliminarDatoRegistroPDO.php?id='.$concepto["id"].'" class="w3-btn w3-red">Eliminar</a></td>
 

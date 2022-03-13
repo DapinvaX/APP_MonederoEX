@@ -84,7 +84,7 @@ echo 'Registro insertado';
 
 
 
-header('Location: index2.php');
+header('Location: index.php');
 
 ob_end_flush();
 

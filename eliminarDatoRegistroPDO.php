@@ -40,7 +40,7 @@ echo 'Registro eliminado';
 
 
 
-header('Location: index2.php');
+header('Location: index.php');
 
 ob_end_flush();
 
