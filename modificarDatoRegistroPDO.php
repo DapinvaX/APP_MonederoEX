@@ -47,7 +47,7 @@ $registroDAO = new MonederoDAO();
 
 
 
-$resultado = $registroDAO->modificarRegistro($id);
+$resultado = $registroDAO->modificarRegistro($id); 
 
 
 
